@@ -1,0 +1,9 @@
+name: call-swapi
+version: '1.0'
+subcommands:
+  - test:
+      about: controls testing features
+      args:
+        - debug:
+            short: d
+            help: print debug information
